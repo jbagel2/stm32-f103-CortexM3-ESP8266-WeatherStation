@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 1.7.8" name="stm32-f103-CortexM3-ESP8266-WeatherStation">
+  <Target name="stm32-f103-CortexM3-ESP8266-WeatherStation" isCurrent="1">
+    <Device manufacturerId="9" manufacturerName="ST" chipId="320" chipName="STM32F103V8" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Option name="SupportCPlusplus" value="0"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="STM32F103V8"/>
+          <Define name="STM32F10X_MD"/>
+          <Define name="USE_STDPERIPH_DRIVER"/>
+          <Define name="__ASSEMBLY__"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="nostartfiles" value="1"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00010000" startValue="0x08000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00005000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="c:/coocox/coide/configuration/programdata/stm32-f103-cortexm3-esp8266-weatherstation/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="stm32-f103-CortexM3-ESP8266-WeatherStation"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ST-Link"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="STM32F10x_MD_64.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="50" name="CMSIS core" path="" type="2"/>
+    <Component id="439" name="CMSIS_Boot" path="" type="2"/>
+  </Components>
+  <Files>
+    <File name="server/WebServer.c" path="server/WebServer.c" type="1"/>
+    <File name="std_periph/src/stm32f10x_flash.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_flash.h" type="1"/>
+    <File name="esp8266/esp8266.h" path="esp8266/esp8266.h" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="std_periph/src" path="" type="2"/>
+    <File name="std_periph/src/stm32f10x_dma.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dma.h" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="custom_structs/GeneralMacros.h" path="custom_structs/GeneralMacros.h" type="1"/>
+    <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
+    <File name="sensors/dht22/dht22.c" path="sensors/dht22/dht22.c" type="1"/>
+    <File name="cmsis_boot/stm32f10x.h" path="cmsis_boot/stm32f10x.h" type="1"/>
+    <File name="cmsis_boot/stm32f10x_conf.h" path="cmsis_boot/stm32f10x_conf.h" type="1"/>
+    <File name="custom_libs" path="" type="2"/>
+    <File name="sensors/dht22" path="" type="2"/>
+    <File name="std_periph/src/stm32f10x_rcc.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h" type="1"/>
+    <File name="std_periph/inc/stm32f10x_gpio.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h" type="1"/>
+    <File name="std_periph/inc/stm32f10x_rcc.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h" type="1"/>
+    <File name="custom_structs/KeyValuePair.h" path="custom_structs/KeyValuePair.h" type="1"/>
+    <File name="server/WebServerConfig.h" path="server/WebServerConfig.h" type="1"/>
+    <File name="esp8266" path="" type="2"/>
+    <File name="std_periph/inc/stm32f10x_flash.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_flash.h" type="1"/>
+    <File name="std_periph/inc/misc.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h" type="1"/>
+    <File name="config/globalDefines.h" path="config/globalDefines.h" type="1"/>
+    <File name="std_periph/inc/stm32f10x_exti.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h" type="1"/>
+    <File name="custom_libs/time.c" path="custom_libs/time.c" type="1"/>
+    <File name="std_periph/inc" path="" type="2"/>
+    <File name="cmsis_boot/startup/startup_stm32f10x_md.c" path="cmsis_boot/startup/startup_stm32f10x_md.c" type="1"/>
+    <File name="std_periph/inc/stm32f10x_tim.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h" type="1"/>
+    <File name="std_periph/inc/stm32f10x_adc.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_adc.h" type="1"/>
+    <File name="std_periph/src/stm32f10x_exti.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h" type="1"/>
+    <File name="std_periph/src/stm32f10x_bkp.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_bkp.h" type="1"/>
+    <File name="cmsis_boot/system_stm32f10x.c" path="cmsis_boot/system_stm32f10x.c" type="1"/>
+    <File name="std_periph/inc/stm32f10x_pwr.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h" type="1"/>
+    <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
+    <File name="server/WebServerConfig.c" path="server/WebServerConfig.c" type="1"/>
+    <File name="sensors/dht22/dht22.h" path="sensors/dht22/dht22.h" type="1"/>
+    <File name="sensors" path="" type="2"/>
+    <File name="cmsis/core_cm3.h" path="cmsis/core_cm3.h" type="1"/>
+    <File name="config" path="" type="2"/>
+    <File name="std_periph" path="" type="2"/>
+    <File name="custom_structs" path="" type="2"/>
+    <File name="std_periph/inc/stm32f10x_bkp.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_bkp.h" type="1"/>
+    <File name="std_periph/src/stm32f10x_usart.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_usart.h" type="1"/>
+    <File name="server" path="" type="2"/>
+    <File name="sensors/bmp180" path="" type="2"/>
+    <File name="std_periph/src/misc.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h" type="1"/>
+    <File name="config/USART3_Config.c" path="config/USART3_Config.c" type="1"/>
+    <File name="std_periph/src/stm32f10x_adc.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_adc.h" type="1"/>
+    <File name="cmsis" path="" type="2"/>
+    <File name="std_periph/src/stm32f10x_tim.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h" type="1"/>
+    <File name="std_periph/src/stm32f10x_gpio.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h" type="1"/>
+    <File name="esp8266/esp8266.c" path="esp8266/esp8266.c" type="1"/>
+    <File name="std_periph/src/stm32f10x_pwr.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h" type="1"/>
+    <File name="custom_libs/time.h" path="custom_libs/time.h" type="1"/>
+    <File name="cmsis_boot/system_stm32f10x.h" path="cmsis_boot/system_stm32f10x.h" type="1"/>
+    <File name="server/WebServer.h" path="server/WebServer.h" type="1"/>
+    <File name="std_periph/inc/stm32f10x_usart.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_usart.h" type="1"/>
+    <File name="config/USART3_Config.h" path="config/USART3_Config.h" type="1"/>
+    <File name="std_periph/inc/stm32f10x_dma.h" path="../../../STM32 Libraries/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dma.h" type="1"/>
+    <File name="main.c" path="main.c" type="1"/>
+  </Files>
+</Project>

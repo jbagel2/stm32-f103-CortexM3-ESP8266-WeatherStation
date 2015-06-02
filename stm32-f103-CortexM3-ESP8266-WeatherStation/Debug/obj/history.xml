@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103V8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\Google Drive\ARM Development\STM32 Libraries\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver -ID:\Google Drive\ARM Development\STM32 Projects\F103\stm32-f103-CortexM3-ESP8266-WeatherStation\custom_structs -ID:\Google Drive\ARM Development\STM32 Projects\F103\stm32-f103-CortexM3-ESP8266-WeatherStation\esp8266 -ID:\Google Drive\ARM Development\STM32 Projects\F103\stm32-f103-CortexM3-ESP8266-WeatherStation\sensors -ID:\Google Drive\ARM Development\STM32 Projects\F103\stm32-f103-CortexM3-ESP8266-WeatherStation\config -ID:\Google Drive\ARM Development\STM32 Libraries\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries -ID:\Google Drive\ARM Development\STM32 Libraries\STM32F10x_StdPeriph_Lib_V3.5.0\Libraries\STM32F10x_StdPeriph_Driver\inc -ID:\Google Drive\ARM Development\STM32 Projects\F103 -ID:\Google Drive\ARM Development\STM32 Projects\F103\stm32-f103-CortexM3-ESP8266-WeatherStation\cmsis_boot -ID:\Google Drive\ARM Development\STM32 Projects\F103\stm32-f103-CortexM3-ESP8266-WeatherStation -ID:\Google Drive\ARM Development\STM32 Projects\F103\stm32-f103-CortexM3-ESP8266-WeatherStation\cmsis -ID:\Google Drive\ARM Development\STM32 Projects\F103\stm32-f103-CortexM3-ESP8266-WeatherStation\custom_libs -ID:\Google Drive\ARM Development\STM32 Projects\F103\stm32-f103-CortexM3-ESP8266-WeatherStation\server -ID:\Google Drive\ARM Development\STM32 Projects\F103\stm32-f103-CortexM3-ESP8266-WeatherStation\sensors\dht22">
+      <target file="startup_stm32f10x_md.o" lastModified="14dada0ebf2">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="14dad4bd47e"/>
+      </target>
+      <target file="WebServer.o" lastModified="14dada0eed3">
+         <source file="..\..\..\server\WebServer.c" lastModified="14d9dbb1b17"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="14dada0eb48">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14dad4bd488"/>
+      </target>
+      <target file="time.o" lastModified="14dada0efe1">
+         <source file="..\..\..\custom_libs\time.c" lastModified="14d4312ec82"/>
+      </target>
+      <target file="USART3_Config.o" lastModified="14dada0ea58">
+         <source file="..\..\..\config\USART3_Config.c" lastModified="14d0ba453dd"/>
+      </target>
+      <target file="WebServerConfig.o" lastModified="14dada0f1e9">
+         <source file="..\..\..\server\WebServerConfig.c" lastModified="14d0ba45402"/>
+      </target>
+      <target file="main.o" lastModified="14dada0ecc4">
+         <source file="..\..\..\main.c" lastModified="14dad96591f"/>
+      </target>
+   </processor>
+</history>
