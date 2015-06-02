@@ -3,6 +3,13 @@
 #ifndef __DHT22__
 #define __DHT22__
 
+#include "stm32f10x_exti.h"
+#include "stm32f10x_gpio.h"
+#include "stm32f10x_rcc.h"
+#include "misc.h"
+#include "custom_libs/mytime.h"
+
+
 typedef struct
 {
 	uint8_t Response;
@@ -11,8 +18,6 @@ typedef struct
 	uint8_t ValidChecksum;
 }DHT22_Data;
 
-
-//uint32_t DHT_Error_Since_Boot = 0;
 
 
 void DHT22_Init();
@@ -24,6 +29,7 @@ void DHT22_Config_EXTInterrupt_Enable();
 void DHT22_Config_EXTInterrupt_Disable();
 void DHT22_Config_NVIC();
 void DHT_Value_Checksum();
+void DHT22_Times_To_Bits16(uint8_t bitTimesArray[], uint8_t arraySize);
 
 
 #endif

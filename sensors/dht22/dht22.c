@@ -1,10 +1,7 @@
 
-#include "stm32f10x_exti.h"
-#include "stm32f10x_gpio.h"
-#include "stm32f10x_rcc.h"
-#include "misc.h"
+
 #include "dht22.h"
-#include "time.h"
+
 
 #define DHT22_Pin GPIO_Pin_6
 
@@ -61,9 +58,7 @@ void DHT22_Start_Read(DHT22_Data *tempAndHumid)
 	{
 		humidTemp = DHT22_Buffer16[0];
 		tempAndHumid->Humid = humidTemp/10.0;
-	}
-	else {
-		DHT_Error_Since_Boot++;
+
 	}
 
 	if(DHT22_Buffer16[1] < 999)
@@ -72,9 +67,6 @@ void DHT22_Start_Read(DHT22_Data *tempAndHumid)
 		tempAndHumid->Temp = tempTemp/10.0;
 
 	}
-	else {
-			DHT_Error_Since_Boot++;
-		}
 
 
 

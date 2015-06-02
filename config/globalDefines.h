@@ -10,7 +10,7 @@
  */
 
 #define NODE_ID "SWAMP_RELAY"
-#define ESP_ResponseTimeout_ms 10000
+#define ESP_ResponseTimeout_ms 10.000
 #define ESP_USART USART3
 #define ESP_CHPD_Control_GPIO GPIOB
 #define ESP_CHPD_Pin GPIO_Pin_0
