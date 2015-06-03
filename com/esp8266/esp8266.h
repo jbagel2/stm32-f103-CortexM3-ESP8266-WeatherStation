@@ -17,7 +17,8 @@
 #include "globalDefines.h"
 //#include "stm32f10x_gpio.h"
 #include "WebServer.h"
-#include "sensors/dht22/dht22.h"
+#include "dht22.h"
+#include "bmp180.h"
 
 volatile uint8_t waitingForReponse;
 volatile uint8_t OKFound;
@@ -101,7 +102,7 @@ void Wifi_SendCustomCommand_External_Wait(char *customMessage);
 void Wifi_SendCommand(Wifi_Commands command );
 void Wifi_CheckDMABuff_ForCIFSRData();
 uint8_t Wifi_CheckDMABuff_ForReady();
-IPD_Data Wifi_CheckDMABuff_ForIPDData(DHT22_Data *Current_DHT22_Reading);
+IPD_Data Wifi_CheckDMABuff_ForIPDData(DHT22_Data *Current_DHT22_Reading, BMP180_Data *Current_BMP180_Reading);
 void ConnectToAP(char *apName, char *password);
 void StartLocalAP(char *SSID, char *password, uint8_t channel, Available_Encyption encypt);
 

@@ -14,9 +14,10 @@
 #include "esp8266.h"
 //#include "CustomStructs/GeneralMacros.h"
 #include "dht22.h"
+#include "bmp180.h"
 
 
-char customRESTResponse[400];
+char customRESTResponse[800];
 
 typedef KeyValuePair_String_String Header;
 
@@ -49,7 +50,7 @@ typedef struct // Response object that will be transmitted back
 }HTTPRequest;
 
 
-void RefreshCustomRESTResponseSwamp(char *IPWAN, char *IPLAN, uint8_t pumpState, uint8_t fanState, DHT22_Data *tempAndHumid);
+void RefreshCustomRESTResponseWeather(char *IPWAN, char *IPLAN, BMP180_Data *pressureData, DHT22_Data *tempAndHumid);
 void buildHeader(Header *newHeaderOut, RequestHeaders_Types type, char *headerValue);
 void SendRESTResponse(uint8_t connectionNum, const char *responseHeaders, const char *responseBody);
 void StartServer(uint8_t serverNum, uint16_t portNum);

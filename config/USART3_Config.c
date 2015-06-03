@@ -218,14 +218,18 @@ void Init_USART3_Interrupt()
 	//USART_ITConfig(USART3,USART_IT_TXE, ENABLE);
 }
 
-/*void USART3_SendString(char *MessageToSend)
+void USART3_SendString(char *MessageToSend)
 {
-	while(MessageToSend++)
+	while(*MessageToSend)
 	{
-		USART_SendData(USART3, MessageToSend);
+		while(USART_GetFlagStatus(USART3, USART_FLAG_TXE) == RESET);
+		USART_SendData(USART3, *MessageToSend++);
 	}
 }
 
+
+
+/*
 // Send "AT" to verify if ESP8266 is ready
 void USART3_Send_AT_TEST()
 {

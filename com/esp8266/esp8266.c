@@ -5,7 +5,7 @@
  * esp8266.c (esp8266 wifi library source file)
  ********************************************************/
 
-#include "com/esp8266/esp8266.h"
+#include "esp8266.h"
 
 //#include "swamp_controls/swamp_functions.h"
 //#include "dht22.h"
@@ -374,7 +374,7 @@ void Wifi_CheckDMABuff_ForCIFSRData()
 }
 
 
-IPD_Data Wifi_CheckDMABuff_ForIPDData(DHT22_Data *Current_DHT22_Reading)
+IPD_Data Wifi_CheckDMABuff_ForIPDData(DHT22_Data *Current_DHT22_Reading, BMP180_Data *Current_BMP180_Reading)
 {
 	currentIPD.Valid = 0;
 
@@ -433,7 +433,7 @@ IPD_Data Wifi_CheckDMABuff_ForIPDData(DHT22_Data *Current_DHT22_Reading)
 						if(qsc > 0)
 						{
 							currentIPD.Valid = 1;
-							RefreshCustomRESTResponseSwamp(currentESPStatus.Station_IP, currentESPStatus.AccessPoint_IP, 0, 0,Current_DHT22_Reading);
+							RefreshCustomRESTResponseWeather(currentESPStatus.Station_IP, currentESPStatus.AccessPoint_IP, Current_BMP180_Reading,Current_DHT22_Reading);
 						}
 						return currentIPD;
 					}
@@ -448,7 +448,7 @@ IPD_Data Wifi_CheckDMABuff_ForIPDData(DHT22_Data *Current_DHT22_Reading)
 							queryStrings[qsc] = thisQuery;
 						}
 					}
-					RefreshCustomRESTResponseSwamp(currentESPStatus.Station_IP, currentESPStatus.AccessPoint_IP, 0, 0,Current_DHT22_Reading);
+					RefreshCustomRESTResponseWeather(currentESPStatus.Station_IP, currentESPStatus.AccessPoint_IP, Current_BMP180_Reading,Current_DHT22_Reading);
 				}
 			}
 			else {
@@ -468,14 +468,13 @@ IPD_Data Wifi_CheckDMABuff_ForIPDData(DHT22_Data *Current_DHT22_Reading)
 					currentIPD.Valid = 1;
 				}
 			}
-			RefreshCustomRESTResponseSwamp(currentESPStatus.Station_IP, currentESPStatus.AccessPoint_IP, 0, 0,Current_DHT22_Reading);
+			RefreshCustomRESTResponseWeather(currentESPStatus.Station_IP, currentESPStatus.AccessPoint_IP, Current_BMP180_Reading,Current_DHT22_Reading);
 
 			}
 		}
 		else if (requestType == GET)
 		{
-			//TODO: Still need to add parsing of start up ESP data (ip's, MAC, and ready flag )
-			RefreshCustomRESTResponseSwamp(currentESPStatus.Station_IP, currentESPStatus.AccessPoint_IP, 0, 0,Current_DHT22_Reading);
+			RefreshCustomRESTResponseWeather(currentESPStatus.Station_IP, currentESPStatus.AccessPoint_IP, Current_BMP180_Reading,Current_DHT22_Reading);
 			currentIPD.Valid = 1;
 			return currentIPD;
 		}
