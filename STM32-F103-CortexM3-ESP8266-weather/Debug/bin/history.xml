@@ -1,29 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="4.9.3 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=STM32-F103-CortexM3-ESP8266-weather.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32-F103-CortexM3-ESP8266-weather -TC:\CooCox\CoIDE\configuration\ProgramData\STM32-F103-CortexM3-ESP8266-weather/arm-gcc-link.ld -g">
-      <target file="STM32-F103-CortexM3-ESP8266-weather.elf" lastModified="14db7f5efd8">
-         <source file="..\obj\stm32f10x_tim.o" lastModified="14db7f5e3a4"/>
-         <source file="..\obj\USART3_Config.o" lastModified="14db7f5e411"/>
-         <source file="..\obj\system_stm32f10x.o" lastModified="14db7f5e45f"/>
-         <source file="..\obj\bmp180.o" lastModified="14db7f5e49e"/>
-         <source file="..\obj\startup_stm32f10x_md.o" lastModified="14db7f5e4dc"/>
-         <source file="..\obj\stm32f10x_pwr.o" lastModified="14db7f5e539"/>
-         <source file="..\obj\stm32f10x_gpio.o" lastModified="14db7f5e597"/>
-         <source file="..\obj\main.o" lastModified="14db7f5e605"/>
-         <source file="..\obj\WebServer.o" lastModified="14db7f5e6b0"/>
-         <source file="..\obj\stm32f10x_rcc.o" lastModified="14db7f5e724"/>
-         <source file="..\obj\stm32f10x_exti.o" lastModified="14db7f5e773"/>
-         <source file="..\obj\stm32f10x_adc.o" lastModified="14db7f5e7f0"/>
-         <source file="..\obj\stm32f10x_usart.o" lastModified="14db7f5e86d"/>
-         <source file="..\obj\syscalls.o" lastModified="14db7f5e8ab"/>
-         <source file="..\obj\stm32f10x_flash.o" lastModified="14db7f5e928"/>
-         <source file="..\obj\stm32f10x_dma.o" lastModified="14db7f5e986"/>
-         <source file="..\obj\mytime.o" lastModified="14db7f5e9d4"/>
-         <source file="..\obj\dht22.o" lastModified="14db7f5ea98"/>
-         <source file="..\obj\misc.o" lastModified="14db7f5eae6"/>
-         <source file="..\obj\WebServerConfig.o" lastModified="14db7f5eb25"/>
-         <source file="..\obj\esp8266.o" lastModified="14db7f5ed96"/>
-         <source file="..\obj\stm32f10x_bkp.o" lastModified="14db7f5edf4"/>
+      <target file="STM32-F103-CortexM3-ESP8266-weather.elf" lastModified="14ddbaf4b92">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="14ddbaf4020"/>
+         <source file="..\obj\USART3_Config.o" lastModified="14ddbaf4081"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="14ddbaf40d2"/>
+         <source file="..\obj\bmp180.o" lastModified="14ddbaf4155"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="14ddbaf418a"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="14ddbaf41dd"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="14ddbaf4241"/>
+         <source file="..\obj\main.o" lastModified="14ddbaf42ad"/>
+         <source file="..\obj\WebServer.o" lastModified="14ddbaf434f"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="14ddbaf43b9"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="14ddbaf440f"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="14ddbaf448a"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="14ddbaf44fc"/>
+         <source file="..\obj\syscalls.o" lastModified="14ddbaf4543"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="14ddbaf45b7"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="14ddbaf4610"/>
+         <source file="..\obj\mytime.o" lastModified="14ddbaf4662"/>
+         <source file="..\obj\dht22.o" lastModified="14ddbaf46ea"/>
+         <source file="..\obj\misc.o" lastModified="14ddbaf473d"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="14ddbaf47b3"/>
+         <source file="..\obj\WebServerConfig.o" lastModified="14ddbaf47f0"/>
+         <source file="..\obj\esp8266.o" lastModified="14ddbaf4952"/>
+         <source file="..\obj\stm32f10x_bkp.o" lastModified="14ddbaf49a9"/>
       </target>
    </processor>
 </history>

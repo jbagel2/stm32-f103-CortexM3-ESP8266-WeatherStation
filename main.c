@@ -5,6 +5,7 @@
 #include "stm32f10x_rcc.h"
 #include "esp8266.h"
 #include "dht22.h"
+#include "sensors/bmp180/bmp180.h"
 
 uint32_t timeStamp = 0;
 uint32_t i = 0;
@@ -69,6 +70,8 @@ int main(void)
 	Init_USART3_DMA(2000000,USART3_RxBuffer, RxBuffSize);
 
 	//SetSystemClockOut();
+	BMP180_Init(400000);
+
 
 	Wifi_Init();
 

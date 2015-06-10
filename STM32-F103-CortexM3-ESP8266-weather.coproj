@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Project version="2G - 1.7.8" name="STM32-F103-CortexM3-ESP8266-weather">
   <Target name="STM32-F103-CortexM3-ESP8266-weather" isCurrent="1">
-    <Device manufacturerId="9" manufacturerName="ST" chipId="320" chipName="STM32F103V8" boardId="" boardName=""/>
+    <Device manufacturerId="9" manufacturerName="ST" chipId="306" chipName="STM32F103CB" boardId="" boardName=""/>
     <BuildOption>
       <Compile>
         <Option name="OptimizationLevel" value="0"/>
@@ -12,10 +12,10 @@
           <Includepath path="."/>
         </Includepaths>
         <DefinedSymbols>
-          <Define name="STM32F103V8"/>
-          <Define name="STM32F10X_MD"/>
           <Define name="USE_STDPERIPH_DRIVER"/>
           <Define name="__ASSEMBLY__"/>
+          <Define name="STM32F103CB"/>
+          <Define name="STM32F10X_MD"/>
         </DefinedSymbols>
       </Compile>
       <Link useDefault="0">
@@ -28,7 +28,7 @@
         <Option name="Library" value="Not use C Library"/>
         <LinkedLibraries/>
         <MemoryAreas debugInFlashNotRAM="1">
-          <Memory name="IROM1" type="ReadOnly" size="0x00010000" startValue="0x08000000"/>
+          <Memory name="IROM1" type="ReadOnly" size="0x00020000" startValue="0x08000000"/>
           <Memory name="IRAM1" type="ReadWrite" size="0x00005000" startValue="0x20000000"/>
           <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
           <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
@@ -64,7 +64,7 @@
       <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
       <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
       <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
-      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="STM32F10x_MD_64.elf"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="STM32F10x_MD_128.elf"/>
     </DebugOption>
     <ExcludeFile/>
   </Target>
@@ -77,6 +77,7 @@
     <Component id="444" name="GPIO" path="" type="2"/>
     <Component id="445" name="EXTI" path="" type="2"/>
     <Component id="446" name="DMA" path="" type="2"/>
+    <Component id="453" name="I2C" path="" type="2"/>
     <Component id="455" name="FLASH" path="" type="2"/>
     <Component id="456" name="TIM" path="" type="2"/>
     <Component id="457" name="ADC" path="" type="2"/>
@@ -92,9 +93,9 @@
     <File name="syscall/syscalls.c" path="syscalls/syscalls.c" type="1"/>
     <File name="syscall" path="" type="2"/>
     <File name="sensors/bmp180/bmp180.c" path="sensors/bmp180/bmp180.c" type="1"/>
-    <File name="stm_lib/src/stm32f10x_tim.c" path="stm_lib/src/stm32f10x_tim.c" type="1"/>
     <File name="com/esp8266/esp8266.c" path="com/esp8266/esp8266.c" type="1"/>
     <File name="stm_lib/inc/stm32f10x_pwr.h" path="stm_lib/inc/stm32f10x_pwr.h" type="1"/>
+    <File name="stm_lib/src/stm32f10x_tim.c" path="stm_lib/src/stm32f10x_tim.c" type="1"/>
     <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
     <File name="sensors/dht22/dht22.c" path="sensors/dht22/dht22.c" type="1"/>
@@ -134,8 +135,8 @@
     <File name="stm_lib/inc/stm32f10x_bkp.h" path="stm_lib/inc/stm32f10x_bkp.h" type="1"/>
     <File name="sensors/bmp180" path="" type="2"/>
     <File name="stm_lib/src/stm32f10x_dma.c" path="stm_lib/src/stm32f10x_dma.c" type="1"/>
-    <File name="stm_lib/src" path="" type="2"/>
     <File name="config/USART3_Config.c" path="config/USART3_Config.c" type="1"/>
+    <File name="stm_lib/src" path="" type="2"/>
     <File name="cmsis" path="" type="2"/>
     <File name="stm_lib" path="" type="2"/>
     <File name="stm_lib/inc/stm32f10x_exti.h" path="stm_lib/inc/stm32f10x_exti.h" type="1"/>
@@ -143,7 +144,9 @@
     <File name="stm_lib/inc/stm32f10x_adc.h" path="stm_lib/inc/stm32f10x_adc.h" type="1"/>
     <File name="cmsis_boot/system_stm32f10x.h" path="cmsis_boot/system_stm32f10x.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_rcc.h" path="stm_lib/inc/stm32f10x_rcc.h" type="1"/>
+    <File name="stm_lib/inc/stm32f10x_i2c.h" path="stm_lib/inc/stm32f10x_i2c.h" type="1"/>
     <File name="com/server" path="" type="2"/>
+    <File name="stm_lib/src/stm32f10x_i2c.c" path="stm_lib/src/stm32f10x_i2c.c" type="1"/>
     <File name="config/USART3_Config.h" path="config/USART3_Config.h" type="1"/>
     <File name="stm_lib/inc" path="" type="2"/>
     <File name="main.c" path="main.c" type="1"/>

@@ -3,12 +3,16 @@
 <workbenchAdvisor/>
 <window>
 <fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.debug.ui.ExpressionView"/>
+<orientation position="512" view="org.coocox.codebugger.trace.ui.traceview"/>
+<orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
 <orientation position="512" view="org.coocox.coassistant.view.CoAssistantView_debug"/>
+<orientation position="512" view="org.eclipse.debug.ui.VariableView"/>
 </fastViewData>
 <perspectiveBar/>
 <page focus="true" label="Workspace - CooCox CoBuilder">
 <editors>
-<editorArea activeWorkbook="DefaultEditorWorkbook">
+<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@1e5b426">
 <info part="org.eclipse.ui.internal.EditorStack@1e5b426">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -16,12 +20,15 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="6"/>
 <part id="4"/>
 <part id="5"/>
+<part id="7"/>
+<part id="8"/>
 </presentation>
 </folder>
 </info>
-<info part="DefaultEditorWorkbook" ratio="0.45687133" ratioLeft="625" ratioRight="743" relationship="2" relative="org.eclipse.ui.internal.EditorStack@1e5b426">
+<info part="DefaultEditorWorkbook" ratio="0.8098918" ratioLeft="524" ratioRight="123" relationship="2" relative="org.eclipse.ui.internal.EditorStack@1e5b426">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
@@ -40,13 +47,11 @@
 <part id="13"/>
 <part id="14"/>
 <part id="15"/>
-<part id="16"/>
-<part id="17"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="esp8266.h" partName="esp8266.h" path="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/com/esp8266/esp8266.h" title="esp8266.h" tooltip="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/com/esp8266/esp8266.h" workbook="org.eclipse.ui.internal.EditorStack@1e5b426">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="esp8266.h" partName="esp8266.h" path="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/com/esp8266/esp8266.h" title="esp8266.h" tooltip="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/com/esp8266/esp8266.h" workbook="org.eclipse.ui.internal.EditorStack@1e5b426">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32-F103-CortexM3-ESP8266-weather/com/esp8266/esp8266.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="112" selectionOffset="2794" selectionTopPixel="1316"/>
 </editor>
@@ -70,9 +75,23 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32-F103-CortexM3-ESP8266-weather/com/server/WebServerConfig.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="138" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/main.c" title="main.c" tooltip="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/main.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="bmp180.c" partName="bmp180.c" path="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180/bmp180.c" title="bmp180.c" tooltip="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180/bmp180.c" workbook="org.eclipse.ui.internal.EditorStack@1e5b426">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180/bmp180.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="152" selectionTopPixel="0"/>
+</editor>
+<editor id="org.coocox.builder.ui.editors.ConfigEditor" name="" partName="Configuration" title="Configuration" tooltip="" workbook="org.eclipse.ui.internal.EditorStack@1e5b426">
+<input factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory">
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="0" verticalPosition="0"/>
+</input>
+</editor>
+<editor id="org.coocox.builder.ui.editors.ConfigEditor" name="" partName="Configuration" title="Configuration" tooltip="" workbook="org.eclipse.ui.internal.EditorStack@1e5b426">
+<input factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory">
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="0" verticalPosition="0"/>
+</input>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/main.c" title="main.c" tooltip="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32-F103-CortexM3-ESP8266-weather/main.c"/>
-<editorState selectionHorizontalPixel="197" selectionLength="0" selectionOffset="2350" selectionTopPixel="1479"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1766" selectionTopPixel="999"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="globalDefines.h" partName="globalDefines.h" path="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/config/globalDefines.h" title="globalDefines.h" tooltip="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/config/globalDefines.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32-F103-CortexM3-ESP8266-weather/config/globalDefines.h"/>
@@ -81,10 +100,6 @@
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f10x.h" partName="system_stm32f10x.h" path="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/cmsis_boot/system_stm32f10x.h" title="system_stm32f10x.h" tooltip="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/cmsis_boot/system_stm32f10x.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32-F103-CortexM3-ESP8266-weather/cmsis_boot/system_stm32f10x.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="1808" selectionTopPixel="981"/>
-</editor>
-<editor id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" partName="Repository" title="Repository" tooltip="Repository" workbook="DefaultEditorWorkbook">
-<input factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory">&#x0A;<subPage horizontalPosition="0" selectedItemId="467" subPageIndex="2" verticalPosition="270"/>
-</input>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_rcc.h" partName="stm32f10x_rcc.h" path="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/stm_lib/inc/stm32f10x_rcc.h" title="stm32f10x_rcc.h" tooltip="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/stm_lib/inc/stm32f10x_rcc.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32-F103-CortexM3-ESP8266-weather/stm_lib/inc/stm32f10x_rcc.h"/>
@@ -112,7 +127,7 @@
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="USART3_Config.c" partName="USART3_Config.c" path="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/config/USART3_Config.c" title="USART3_Config.c" tooltip="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/config/USART3_Config.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32-F103-CortexM3-ESP8266-weather/config/USART3_Config.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7113" selectionTopPixel="3604"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7113" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="dht22.c" partName="dht22.c" path="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/sensors/dht22/dht22.c" title="dht22.c" tooltip="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/sensors/dht22/dht22.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32-F103-CortexM3-ESP8266-weather/sensors/dht22/dht22.c"/>
@@ -130,13 +145,9 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32-F103-CortexM3-ESP8266-weather/syscall/syscalls.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1924" selectionTopPixel="292"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bmp180.c" partName="bmp180.c" path="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180/bmp180.c" title="bmp180.c" tooltip="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180/bmp180.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180/bmp180.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="50" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="bmp180.h" partName="bmp180.h" path="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180/bmp180.h" title="bmp180.h" tooltip="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180/bmp180.h" workbook="DefaultEditorWorkbook">
+<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="bmp180.h" partName="bmp180.h" path="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180/bmp180.h" title="bmp180.h" tooltip="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180/bmp180.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180/bmp180.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="170" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="177" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f10x_md.c" partName="startup_stm32f10x_md.c" path="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/cmsis_boot/startup/startup_stm32f10x_md.c" title="startup_stm32f10x_md.c" tooltip="C:/ARMDevelopment/STM32 Projects/F103/STM32-F103-CortexM3-ESP8266-weather/cmsis_boot/startup/startup_stm32f10x_md.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32-F103-CortexM3-ESP8266-weather/cmsis_boot/startup/startup_stm32f10x_md.c"/>
@@ -145,7 +156,7 @@
 </editors>
 <views>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="5">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="47">
 <expanded>
 <element path="/STM32-F103-CortexM3-ESP8266-weather"/>
 <element path="/STM32-F103-CortexM3-ESP8266-weather/cmsis"/>
@@ -159,15 +170,23 @@
 <element path="/STM32-F103-CortexM3-ESP8266-weather/sensors"/>
 <element path="/STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180"/>
 <element path="/STM32-F103-CortexM3-ESP8266-weather/sensors/dht22"/>
+<element path="/STM32-F103-CortexM3-ESP8266-weather/stm_lib"/>
+<element path="/STM32-F103-CortexM3-ESP8266-weather/stm_lib/inc"/>
+<element path="/STM32-F103-CortexM3-ESP8266-weather/stm_lib/src"/>
 <element path="/STM32-F103-CortexM3-ESP8266-weather/syscall"/>
 </expanded>
 <selection>
-<element path="/STM32-F103-CortexM3-ESP8266-weather/com/esp8266/esp8266.h"/>
+<element path="/STM32-F103-CortexM3-ESP8266-weather/main.c"/>
 </selection>
 </viewState>
 </view>
 <view id="org.coocox.component.ui.ComponentView" partName="Components">
 <viewState/>
+</view>
+<view id="org.coocox.builder.ui.exampleView" partName="I2C Examples">
+<viewState>
+<Examples ComponentId="453" Title="I2C"/>
+</viewState>
 </view>
 <view id="org.coocox.codebugger.trace.ui.traceview" partName="Semihosting">
 <viewState/>
@@ -186,6 +205,16 @@
 </view>
 <view id="org.coocox.component.ui.Help" partName="Help">
 <viewState/>
+</view>
+<view id="org.coocox.coassistant.view.CoAssistantView" partName="Peripherals">
+<viewState horizontalPosition="0" verticalPosition="0">
+<expanded>
+<element name="I2C1"/>
+</expanded>
+<selection>
+<element name="I2C1;I2C_TRISE"/>
+</selection>
+</viewState>
 </view>
 </views>
 <perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
@@ -222,7 +251,9 @@
 <view id="org.coocox.builder.ui.views.ProjectView"/>
 <view id="org.coocox.component.ui.Help"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.coocox.coassistant.view.CoAssistantView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.coocox.builder.ui.exampleView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -240,7 +271,7 @@
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@b5c83a" ratio="0.6577825" ratioLeft="617" ratioRight="321" relationship="4" relative="org.eclipse.ui.internal.ViewStack@180ff36">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@b5c83a" ratio="0.7418655" ratioLeft="684" ratioRight="238" relationship="4" relative="org.eclipse.ui.internal.ViewStack@180ff36">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -248,21 +279,29 @@
 </presentation>
 </folder>
 </info>
-<info part="org.coocox.builder.ui.exampleView" ratio="0.17045455" ratioLeft="270" ratioRight="1314" relationship="2" relative="org.eclipse.ui.internal.ViewStack@180ff36"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@8af168" ratio="0.88447434" ratioLeft="1447" ratioRight="189" relationship="2" relative="org.coocox.builder.ui.exampleView">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@e38d38" ratio="0.25368732" ratioLeft="258" ratioRight="759" relationship="2" relative="org.eclipse.ui.internal.ViewStack@180ff36">
+<folder activePageID="org.coocox.builder.ui.exampleView" appearance="2" expanded="2">
+<page content="org.coocox.builder.ui.exampleView" label="I2C Examples"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@8af168" ratio="0.86392814" ratioLeft="673" ratioRight="106" relationship="2" relative="org.eclipse.ui.internal.ViewStack@e38d38">
+<folder activePageID="org.coocox.component.ui.Help" appearance="2" expanded="2">
 <page content="org.coocox.component.ui.Help" label="Help"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.coocox.coassistant.view.CoAssistantView" label="Peripherals"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
-<page content="org.coocox.coassistant.view.CoAssistantView" label="LabelNotFound"/>
 <page content="org.coocox.builder.ui.MoreExampleView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.449945" ratioLeft="409" ratioRight="500" relationship="4" relative="org.coocox.builder.ui.exampleView"/>
+<info part="org.eclipse.ui.editorss" ratio="0.30152673" ratioLeft="158" ratioRight="366" relationship="4" relative="org.eclipse.ui.internal.ViewStack@e38d38"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1f355e0" ratio="0.36963695" ratioLeft="336" ratioRight="573" relationship="4" relative="org.eclipse.ui.internal.ViewStack@180ff36">
 <folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
 <page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
@@ -325,49 +364,34 @@
 <view id="org.coocox.builder.ui.views.ProjectView"/>
 <fastViewBars/>
 <viewLayoutRec closeable="false" id="org.eclipse.debug.ui.DebugView"/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@75eeae">
-<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
-<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@75eeae">&#x0A;<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@75eeae">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@75eeae">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1e064db" ratio="0.65991473" ratioLeft="619" ratioRight="319" relationship="4" relative="org.eclipse.ui.internal.ViewStack@75eeae">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1e064db" ratio="0.65991473" ratioLeft="619" ratioRight="319" relationship="4" relative="org.eclipse.ui.internal.ViewStack@75eeae">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@714ab6" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1e064db">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@714ab6" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1e064db">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1e014ce" ratio="0.8658228" ratioLeft="684" ratioRight="106" relationship="2" relative="org.eclipse.ui.internal.ViewStack@75eeae">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1e014ce" ratio="0.8658228" ratioLeft="684" ratioRight="106" relationship="2" relative="org.eclipse.ui.internal.ViewStack@75eeae">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <page content="org.coocox.coassistant.view.CoAssistantView_debug" label="LabelNotFound"/>
@@ -383,95 +407,30 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32-F103-CortexM3-ESP8266-weather/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32-F103-CortexM3-ESP8266-weather/sensors/dht22/dht22.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32-F103-CortexM3-ESP8266-weather/cmsis_boot/startup/startup_stm32f10x_md.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32-F103-CortexM3-ESP8266-weather/com/esp8266/esp8266.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32-F103-CortexM3-ESP8266-weather/com/server/WebServer.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32-F103-CortexM3-ESP8266-weather/com/server/WebServer.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32-F103-CortexM3-ESP8266-weather/com/esp8266/esp8266.h"/>
+<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
+<subPage/>
+</editor>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32-F103-CortexM3-ESP8266-weather/com/esp8266/esp8266.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32-F103-CortexM3-ESP8266-weather/config/USART3_Config.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180/bmp180.c"/>
+<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="0" verticalPosition="0"/>
+</editor>
+<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="0" verticalPosition="0"/>
+</editor>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32-F103-CortexM3-ESP8266-weather/config/USART3_Config.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180/bmp180.h"/>
 </editors>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2107" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2221" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2256" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2354" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
 <position info="not_deleted" x="2516" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2221" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2631" y="0"/>
-</item>
-<item historyLabel="dht22.c" index="1">
-<position info="not_deleted" x="770" y="0"/>
-</item>
-<item historyLabel="dht22.c" index="1">
-<position info="not_deleted" x="787" y="0"/>
-</item>
-<item historyLabel="dht22.c" index="1">
-<position info="not_deleted" x="806" y="0"/>
-</item>
-<item historyLabel="dht22.c" index="1">
-<position info="not_deleted" x="823" y="0"/>
-</item>
-<item historyLabel="dht22.c" index="1">
-<position info="not_deleted" x="844" y="0"/>
-</item>
-<item historyLabel="dht22.c" index="1">
-<position info="not_deleted" x="926" y="0"/>
-</item>
-<item historyLabel="dht22.c" index="1">
-<position info="not_deleted" x="951" y="0"/>
-</item>
-<item historyLabel="dht22.c" index="1">
-<position info="not_deleted" x="976" y="0"/>
-</item>
-<item historyLabel="dht22.c" index="1">
-<position info="not_deleted" x="1003" y="0"/>
-</item>
-<item historyLabel="dht22.c" index="1">
-<position info="not_deleted" x="1030" y="0"/>
-</item>
-<item historyLabel="dht22.c" index="1">
-<position info="not_deleted" x="1060" y="0"/>
-</item>
-<item historyLabel="dht22.c" index="1">
-<position info="not_deleted" x="1120" y="12"/>
-</item>
-<item historyLabel="startup_stm32f10x_md.c" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1553" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1773" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2700" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3136" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2107" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2147" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2516" y="0"/>
-</item>
-<item historyLabel="startup_stm32f10x_md.c" index="2">
+<item historyLabel="startup_stm32f10x_md.c" index="1">
 <position info="not_deleted" x="14132" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
@@ -480,59 +439,137 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="2293" y="0"/>
 </item>
-<item historyLabel="esp8266.c" index="3">
+<item historyLabel="esp8266.c" index="2">
 <position info="not_deleted" x="9745" y="28"/>
 </item>
-<item historyLabel="esp8266.c" index="3">
+<item historyLabel="esp8266.c" index="2">
 <position info="not_deleted" x="13160" y="0"/>
 </item>
-<item historyLabel="WebServer.c" index="4">
+<item historyLabel="WebServer.c" index="3">
 <position info="not_deleted" x="238" y="0"/>
 </item>
-<item historyLabel="startup_stm32f10x_md.c" index="2">
+<item historyLabel="startup_stm32f10x_md.c" index="1">
 <position info="not_deleted" x="14132" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="2293" y="0"/>
 </item>
-<item historyLabel="esp8266.c" index="3">
+<item historyLabel="esp8266.c" index="2">
 <position info="not_deleted" x="13160" y="0"/>
 </item>
-<item historyLabel="WebServer.c" index="4">
+<item historyLabel="WebServer.c" index="3">
 <position info="not_deleted" x="256" y="0"/>
 </item>
-<item historyLabel="WebServer.h" index="5">
+<item historyLabel="WebServer.h" index="4">
 <position info="not_deleted" x="484" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="2290" y="0"/>
 </item>
-<item historyLabel="esp8266.c" index="3">
+<item historyLabel="esp8266.c" index="2">
 <position info="not_deleted" x="9745" y="28"/>
 </item>
-<item historyLabel="esp8266.c" index="3">
+<item historyLabel="esp8266.c" index="2">
 <position info="not_deleted" x="13269" y="0"/>
 </item>
-<item historyLabel="esp8266.c" index="3">
+<item historyLabel="esp8266.c" index="2">
 <position info="not_deleted" x="13178" y="0"/>
 </item>
-<item historyLabel="WebServer.c" index="4">
+<item historyLabel="WebServer.c" index="3">
 <position info="not_deleted" x="37" y="32"/>
 </item>
-<item historyLabel="esp8266.h" index="6">
+<item historyLabel="esp8266.h" index="5">
 <position info="not_deleted" x="2794" y="112"/>
 </item>
-<item historyLabel="esp8266.c" index="3">
+<item historyLabel="esp8266.c" index="2">
 <position info="not_deleted" x="13178" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="147" y="22"/>
 </item>
-<item historyLabel="esp8266.h" index="6">
+<item historyLabel="esp8266.h" index="5">
 <position info="not_deleted" x="2794" y="112"/>
 </item>
-<item active="true" historyLabel="main.c" index="0">
+<item historyLabel="main.c" index="0">
 <position info="not_deleted" x="2256" y="98"/>
+</item>
+<item historyLabel="Repository" index="6"/>
+<item historyLabel="esp8266.h" index="7">
+<position info="not_deleted" x="2794" y="112"/>
+</item>
+<item historyLabel="USART3_Config.h" index="8">
+<position info="not_deleted" x="506" y="0"/>
+</item>
+<item historyLabel="bmp180.c" index="9">
+<position info="not_deleted" x="147" y="0"/>
+</item>
+<item historyLabel="bmp180.c" index="9">
+<position info="not_deleted" x="147" y="0"/>
+</item>
+<item historyLabel="bmp180.c" index="9">
+<position/>
+</item>
+<item historyLabel="bmp180.c" index="9">
+<position/>
+</item>
+<item historyLabel="bmp180.c" index="9">
+<position/>
+</item>
+<item historyLabel="bmp180.c" index="9">
+<position/>
+</item>
+<item historyLabel="bmp180.c" index="9">
+<position/>
+</item>
+<item historyLabel="bmp180.c" index="9">
+<position/>
+</item>
+<item historyLabel="bmp180.c" index="9">
+<position info="not_deleted" x="609" y="0"/>
+</item>
+<item historyLabel="bmp180.c" index="9">
+<position info="not_deleted" x="178" y="0"/>
+</item>
+<item historyLabel="bmp180.c" index="9">
+<position info="not_deleted" x="839" y="0"/>
+</item>
+<item historyLabel="Configuration" index="10"/>
+<item historyLabel="Configuration" index="11"/>
+<item historyLabel="bmp180.c" index="9">
+<position info="not_deleted" x="971" y="52"/>
+</item>
+<item historyLabel="bmp180.c" index="9">
+<position info="not_deleted" x="561" y="0"/>
+</item>
+<item historyLabel="USART3_Config.c" index="12">
+<position info="not_deleted" x="7113" y="0"/>
+</item>
+<item historyLabel="bmp180.c" index="9">
+<position/>
+</item>
+<item historyLabel="bmp180.h" index="13">
+<position info="not_deleted" x="262" y="11"/>
+</item>
+<item historyLabel="bmp180.c" index="9">
+<position info="not_deleted" x="46" y="18"/>
+</item>
+<item historyLabel="bmp180.h" index="13">
+<position info="not_deleted" x="321" y="0"/>
+</item>
+<item historyLabel="bmp180.c" index="9">
+<position info="not_deleted" x="25" y="0"/>
+</item>
+<item historyLabel="bmp180.h" index="13">
+<position info="not_deleted" x="177" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="1766" y="0"/>
+</item>
+<item historyLabel="bmp180.h" index="13">
+<position info="not_deleted" x="177" y="0"/>
+</item>
+<item active="true" historyLabel="bmp180.c" index="9">
+<position info="not_deleted" x="60" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -541,6 +578,43 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor" name="" tooltip="">
+<persistable>
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="0" verticalPosition="0"/>
+</persistable>
+</file>
+<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor" name="" tooltip="">
+<persistable>
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="0" verticalPosition="0"/>
+</persistable>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x.h" tooltip="OmniData_105/cmsis_boot/stm32f10x.h">
+<persistable path="/OmniData_105/cmsis_boot/stm32f10x.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_rcc.h" tooltip="OmniData_105/stm_lib/inc/stm32f10x_rcc.h">
+<persistable path="/OmniData_105/stm_lib/inc/stm32f10x_rcc.h"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="string.h" tooltip="C:\Program Files (x86)\GNU Tools ARM Embedded\4.9 2014q4\arm-none-eabi\include\string.h">
+<persistable path="C:\Program Files (x86)\GNU Tools ARM Embedded\4.9 2014q4\arm-none-eabi\include\string.h" project="OmniData_105"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="robs_functions.h" tooltip="OmniData_105/libs_custom/robs_functions.h">
+<persistable path="/OmniData_105/libs_custom/robs_functions.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="robs_functions.c" tooltip="OmniData_105/libs_custom/robs_functions.c">
+<persistable path="/OmniData_105/libs_custom/robs_functions.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_rcc.c" tooltip="OmniData_105/stm_lib/src/stm32f10x_rcc.c">
+<persistable path="/OmniData_105/stm_lib/src/stm32f10x_rcc.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f10x.c" tooltip="OmniData_105/cmsis_boot/system_stm32f10x.c">
+<persistable path="/OmniData_105/cmsis_boot/system_stm32f10x.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f10x_cl.c" tooltip="OmniData_105/cmsis_boot/startup/startup_stm32f10x_cl.c">
+<persistable path="/OmniData_105/cmsis_boot/startup/startup_stm32f10x_cl.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_conf.h" tooltip="OmniData_105/cmsis_boot/stm32f10x_conf.h">
+<persistable path="/OmniData_105/cmsis_boot/stm32f10x_conf.h"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f10x_md.c" tooltip="STM32-F103-CortexM3-ESP8266-weather/cmsis_boot/startup/startup_stm32f10x_md.c">
 <persistable path="/STM32-F103-CortexM3-ESP8266-weather/cmsis_boot/startup/startup_stm32f10x_md.c"/>
 </file>
@@ -549,39 +623,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bmp180.c" tooltip="STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180/bmp180.c">
 <persistable path="/STM32-F103-CortexM3-ESP8266-weather/sensors/bmp180/bmp180.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="syscalls.c" tooltip="STM32-F103-CortexM3-ESP8266-weather/syscall/syscalls.c">
-<persistable path="/STM32-F103-CortexM3-ESP8266-weather/syscall/syscalls.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="KeyValuePair.h" tooltip="STM32-F103-CortexM3-ESP8266-weather/custom_libs/KeyValuePair.h">
-<persistable path="/STM32-F103-CortexM3-ESP8266-weather/custom_libs/KeyValuePair.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="WebServerConfig.c" tooltip="STM32-F103-CortexM3-ESP8266-weather/com/server/WebServerConfig.c">
-<persistable path="/STM32-F103-CortexM3-ESP8266-weather/com/server/WebServerConfig.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="WebServerConfig.h" tooltip="STM32-F103-CortexM3-ESP8266-weather/com/server/WebServerConfig.h">
-<persistable path="/STM32-F103-CortexM3-ESP8266-weather/com/server/WebServerConfig.h"/>
-</file>
-<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="string.h" tooltip="C:\Program Files (x86)\GNU Tools ARM Embedded\4.9 2014q4\arm-none-eabi\include\string.h">
-<persistable path="C:\Program Files (x86)\GNU Tools ARM Embedded\4.9 2014q4\arm-none-eabi\include\string.h" project="STM32-F103-CortexM3-ESP8266-weather"/>
-</file>
-<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stdint-gcc.h" tooltip="C:\Program Files (x86)\GNU Tools ARM Embedded\4.9 2014q4\lib\gcc\arm-none-eabi\4.9.3\include\stdint-gcc.h">
-<persistable path="C:\Program Files (x86)\GNU Tools ARM Embedded\4.9 2014q4\lib\gcc\arm-none-eabi\4.9.3\include\stdint-gcc.h" project="STM32-F103-CortexM3-ESP8266-weather"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="dht22.h" tooltip="STM32-F103-CortexM3-ESP8266-weather/sensors/dht22/dht22.h">
-<persistable path="/STM32-F103-CortexM3-ESP8266-weather/sensors/dht22/dht22.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="dht22.c" tooltip="STM32-F103-CortexM3-ESP8266-weather/sensors/dht22/dht22.c">
-<persistable path="/STM32-F103-CortexM3-ESP8266-weather/sensors/dht22/dht22.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="esp8266.h" tooltip="STM32-F103-CortexM3-ESP8266-weather/com/esp8266/esp8266.h">
-<persistable path="/STM32-F103-CortexM3-ESP8266-weather/com/esp8266/esp8266.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="USART3_Config.c" tooltip="STM32-F103-CortexM3-ESP8266-weather/config/USART3_Config.c">
-<persistable path="/STM32-F103-CortexM3-ESP8266-weather/config/USART3_Config.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="WebServer.c" tooltip="STM32-F103-CortexM3-ESP8266-weather/com/server/WebServer.c">
-<persistable path="/STM32-F103-CortexM3-ESP8266-weather/com/server/WebServer.c"/>
 </file>
 </mruList>
 </workbench>

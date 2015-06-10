@@ -1,71 +1,74 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103V8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\sensors\bmp180 -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\sensors -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\cmsis_boot -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\custom_libs -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\com -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\com\server -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\sensors\dht22 -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\stm_lib\inc -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\cmsis -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\stm_lib -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103 -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\config -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\com\esp8266">
-      <target file="mytime.o" lastModified="14db7f5e9d4">
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSTM32F103CB -DSTM32F10X_MD -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\sensors\bmp180 -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\sensors -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\cmsis_boot -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\custom_libs -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\com -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\com\server -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\sensors\dht22 -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\stm_lib\inc -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\cmsis -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\stm_lib -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103 -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\config -I..\..\..\..\..\ARMDevelopment\STM32 Projects\F103\STM32-F103-CortexM3-ESP8266-weather\com\esp8266">
+      <target file="mytime.o" lastModified="14ddbaf4662">
          <source file="..\..\..\custom_libs\mytime.c" lastModified="14db282fec7"/>
       </target>
-      <target file="stm32f10x_rcc.o" lastModified="14db7f5e724">
+      <target file="stm32f10x_rcc.o" lastModified="14ddbaf43b9">
          <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="14db27b9f09"/>
       </target>
-      <target file="stm32f10x_pwr.o" lastModified="14db7f5e539">
+      <target file="stm32f10x_pwr.o" lastModified="14ddbaf41dd">
          <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="14db27dc8b0"/>
       </target>
-      <target file="misc.o" lastModified="14db7f5eae6">
+      <target file="stm32f10x_i2c.o" lastModified="14ddbaf47b3">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="14ddb2016ee"/>
+      </target>
+      <target file="misc.o" lastModified="14ddbaf473d">
          <source file="..\..\..\stm_lib\src\misc.c" lastModified="14db27e1de0"/>
       </target>
-      <target file="esp8266.o" lastModified="14db7f5ed96">
+      <target file="esp8266.o" lastModified="14ddbaf4952">
          <source file="..\..\..\com\esp8266\esp8266.c" lastModified="14db7f370ad"/>
       </target>
-      <target file="startup_stm32f10x_md.o" lastModified="14db7f5e4dc">
+      <target file="startup_stm32f10x_md.o" lastModified="14ddbaf418a">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="14db26ebfe9"/>
       </target>
-      <target file="WebServerConfig.o" lastModified="14db7f5eb25">
+      <target file="WebServerConfig.o" lastModified="14ddbaf47f0">
          <source file="..\..\..\com\server\WebServerConfig.c" lastModified="14db7ae2095"/>
       </target>
-      <target file="bmp180.o" lastModified="14db7f5e49e">
-         <source file="..\..\..\sensors\bmp180\bmp180.c" lastModified="14db7d5a361"/>
+      <target file="bmp180.o" lastModified="14ddbaf4155">
+         <source file="..\..\..\sensors\bmp180\bmp180.c" lastModified="14ddbaf2dbd"/>
       </target>
-      <target file="stm32f10x_flash.o" lastModified="14db7f5e928">
+      <target file="stm32f10x_flash.o" lastModified="14ddbaf45b7">
          <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="14db27bff9e"/>
       </target>
-      <target file="stm32f10x_bkp.o" lastModified="14db7f5edf4">
+      <target file="stm32f10x_bkp.o" lastModified="14ddbaf49a9">
          <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="14db27de916"/>
       </target>
-      <target file="stm32f10x_gpio.o" lastModified="14db7f5e597">
+      <target file="stm32f10x_gpio.o" lastModified="14ddbaf4241">
          <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="14db27dd125"/>
       </target>
-      <target file="stm32f10x_exti.o" lastModified="14db7f5e773">
+      <target file="stm32f10x_exti.o" lastModified="14ddbaf440f">
          <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="14db27dd599"/>
       </target>
-      <target file="system_stm32f10x.o" lastModified="14db7f5e45f">
+      <target file="system_stm32f10x.o" lastModified="14ddbaf40d2">
          <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="14db26ebff6"/>
       </target>
-      <target file="syscalls.o" lastModified="14db7f5e8ab">
+      <target file="syscalls.o" lastModified="14ddbaf4543">
          <source file="..\..\..\syscalls\syscalls.c" lastModified="14db7ca7000"/>
       </target>
-      <target file="dht22.o" lastModified="14db7f5ea98">
+      <target file="dht22.o" lastModified="14ddbaf46ea">
          <source file="..\..\..\sensors\dht22\dht22.c" lastModified="14db2918a31"/>
       </target>
-      <target file="stm32f10x_tim.o" lastModified="14db7f5e3a4">
+      <target file="stm32f10x_tim.o" lastModified="14ddbaf4020">
          <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="14db27e08a5"/>
       </target>
-      <target file="stm32f10x_adc.o" lastModified="14db7f5e7f0">
+      <target file="stm32f10x_adc.o" lastModified="14ddbaf448a">
          <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="14db27e0ea8"/>
       </target>
-      <target file="USART3_Config.o" lastModified="14db7f5e411">
+      <target file="USART3_Config.o" lastModified="14ddbaf4081">
          <source file="..\..\..\config\USART3_Config.c" lastModified="14db7a6dfb8"/>
       </target>
-      <target file="stm32f10x_dma.o" lastModified="14db7f5e986">
+      <target file="stm32f10x_dma.o" lastModified="14ddbaf4610">
          <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="14db27dda32"/>
       </target>
-      <target file="WebServer.o" lastModified="14db7f5e6b0">
+      <target file="WebServer.o" lastModified="14ddbaf434f">
          <source file="..\..\..\com\server\WebServer.c" lastModified="14db7d7fad6"/>
       </target>
-      <target file="stm32f10x_usart.o" lastModified="14db7f5e86d">
+      <target file="stm32f10x_usart.o" lastModified="14ddbaf44fc">
          <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14db27e1527"/>
       </target>
-      <target file="main.o" lastModified="14db7f5e605">
-         <source file="..\..\..\main.c" lastModified="14db7f5da31"/>
+      <target file="main.o" lastModified="14ddbaf42ad">
+         <source file="..\..\..\main.c" lastModified="14ddbaef6ab"/>
       </target>
    </processor>
 </history>
